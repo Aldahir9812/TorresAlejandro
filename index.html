@@ -33,6 +33,19 @@
                 <td><label>Fernando</label></td>
             </tr>
         </table>
+        <div>
+        <button> Decir Hola! </button>
+        </div>
         <a href="https://github.com/Aldahir9812/TorresAlejandro">Link a github</a>
         </body>
+
+        <script>
+            const mybutton = document.getElementsByTagName("button");
+
+            function decirHola(){
+                console.log("Hola Mundo");
+            }
+            mybutton.item(0).addEventListener("mouseover",decirHola);
+            </script>
+
         </html> 
